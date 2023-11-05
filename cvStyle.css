@@ -1,0 +1,150 @@
+body {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #343a42 50%, #cccccc 50%);
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.column {
+    flex: 50%;
+    margin: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+#colLeft {
+    text-align: right;
+    color:#cccccc;
+}
+
+#colRight {
+    text-align: left;
+}
+
+#colLeft h2 { 
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    margin-right: -0.67em;
+    color: #111111;
+}
+
+#colRight h2 {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    margin-left: -0.67em;
+    color: #111111;
+}
+
+#nameSurnames {
+    font-size: 175%;
+    text-align: left;
+}
+
+#aboutMe h2 {
+    background-image: linear-gradient(to right, #A167A5 85%, #ffffff);
+}
+
+#hobbies h2 {
+    background-image: linear-gradient(to right, #558564 85%, #ffffff);
+}
+
+#languages h2 {
+    background-image: linear-gradient(to right, #988F2A 85%, #ffffff);
+}
+
+#skills h2 {
+    background-image: linear-gradient(to right, #AC4C4C 85%, #ffffff);
+}
+
+#education h2 {
+    background-image: linear-gradient(to left, #2186D4 85%, #ffffff);
+}
+
+#workExperience h2 {
+    background-image: linear-gradient(to left, #AA7530 85%, #ffffff);
+}
+
+#contact h2 {
+    background-image: linear-gradient(to left,  #75CB92 85%, #ffffff);
+}
+
+#languages {
+    text-align: left;
+}
+
+#skills {
+    text-align: center;
+}
+
+#workExperience li, #education li {
+    margin-bottom: 15px;
+}
+
+
+.progress-container {
+    background-color: #555555;
+    height: 7px;
+}
+
+.progress-bar, #lang1 {
+    width: 100%;
+    height: 100%;
+    background-color: #cccccc;
+}
+
+.progress-bar, #lang2 {
+    width: 100%;
+    height: 100%;
+    background-color: #cccccc;
+}
+
+.progress-bar, #lang3 {
+    width: 90%;
+    height: 100%;
+    background-color: #cccccc;
+}
+
+.rounded-square {
+    width: 120px; /* Adjust the width and height to make a square */
+    height: 30px;
+    background-color: #cccccc; /* Background color of the square */
+    border-radius: 20px; /* Adjust the radius to control the roundness of corners */
+    text-align: center;
+    color: #000000; /* Text color */
+    line-height: 175%; /* Vertically center text within the square */
+    margin: 3px;
+}
+
+.rowSquares {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.rowSquares #small {
+    width: 100px;
+
+}
